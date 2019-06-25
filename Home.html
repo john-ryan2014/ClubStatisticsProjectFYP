@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+body {
+    background-image: url("Stadium.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: centered;
+}
+a{
+color: white;
+background-color:#93080f;
+}
+button{
+background-color:#93080f;
+}
+</style>
+
+<body >
+
+
+ 
+<div class="container text-center" style="color:black; font-size:4em">
+  <p> GAA Club Statistics </p>     
+   <h1>The statistics you need!</h1>
+</div>
+
+
+<br><br><br><br><br>
+<div class="container-fluid text-center" >
+  
+<div class="row" >
+	<a href ="Create Team.php">
+		<button class="col-sm-4" >
+		<span class="glyphicon glyphicon-plus"></span>
+		<h4>Create Team</h4>
+		<p> Enter player names and positions for your team</p>
+		</button>
+	</a>
+	<a href = "Suggested 15.php">	
+		<button class="col-sm-4"style="background-color:#260b70">
+		  <span class="glyphicon glyphicon-cog"></span>
+		  <h4>Request Starting 15</h4>
+		  <p>This shows a suggested team based on performance.</p>
+		</button>
+	</a>
+	<a href = "Enter New Match Details.php">
+		<button class="col-sm-4">
+		  <span class="glyphicon glyphicon-plus-sign"></span>
+		  <h4>Enter New Match Details</h4>
+		  <p>Enter player statistics for a new match</p>
+		</button>
+	</a>
+  </div>
+  <br><br>
+  <div class="row">
+    <a href ="View Player Statistics.PHP">
+		<button class="col-sm-4" style="background-color:#260b70">
+		  <span class="glyphicon glyphicon-stats"></span>
+		  <h4>View Team Statistics</h4>
+		  <p>Shows team statistics overall throughout the year.</p>
+		</button>
+	</a>
+	<a href = "Individual Players.php">
+		<button class="col-sm-4">
+		  <span class="glyphicon glyphicon-search"></span>
+		  <h4>View Individual Player Statistics</h4>
+		  <p>Look at each player's performance and get feedback.</p>
+		</button>
+	</a>
+	<a href ="Log Out.php">
+		<button class="col-sm-4" style="background-color:#260b70">
+		  <span class="glyphicon glyphicon-user"></span>
+		  <h4>Log Out</h4>
+		  <p>You will be signed out of the current session</p>
+		</button>
+	</a>	
+  </div>
+</div>
+
+</body>
+</html>
